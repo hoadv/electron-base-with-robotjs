@@ -3,4 +3,5 @@ The electron base project setup that already set up robotjs package (https://git
 
 # How to run
 npm i
+
 npm start
