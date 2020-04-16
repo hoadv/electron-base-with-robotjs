@@ -39,15 +39,14 @@ function createWindow() {
   appIcon.setContextMenu(contextMenu)
 
   mainWindow.on('minimize', function (event) {
-    event.preventDefault()
-    console.log('minimize')
-    mainWindow.hide()
+   // event.preventDefault()
+   // console.log('minimize')
+   // mainWindow.hide()
   });
 
   mainWindow.on('close', function (event) {
     event.preventDefault()
     mainWindow.hide()
-    return false
   });
 
   // and load the index.html of the app.
